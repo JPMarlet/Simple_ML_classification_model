@@ -37,7 +37,7 @@ if __name__ == "__main__":
     sentences = ["I love programming.", "I hate bugs."]
     labels = torch.tensor([1, 0])  # 1: Positive, 0: Negative
 
-    # Step 5-9: Classify and Evaluate
+    # Classify and Evaluate
     result = classify_and_evaluate(model, tokenizer, sentences, labels)
     print(result)
 
